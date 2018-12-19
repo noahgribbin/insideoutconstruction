@@ -1,0 +1,87 @@
+.nav-container{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  background: white;
+  padding: 10px 0;
+  color: $med-grey;
+  div{
+    font-size: 125%;
+    padding: 20px 40px;
+    display: inline-block;
+    color: $red;
+  }
+  div{
+    img{
+      height: 60px;
+    }
+  }
+  ul{
+    display: inline-block;
+    float: right;
+    // padding: 0 20px;
+    li{
+      font-size: 100%;
+      line-height: 20px;
+
+      display: inline-block;
+      margin: 0 10px;
+      padding: 20px 0;
+      transition: 300ms;
+    }
+    li:hover{
+      color: $red;
+      cursor: pointer;
+    }
+    .highlight{
+      color: $red;
+    }
+    .highlight:hover{
+      color: darken($red, 10%);
+    }
+  }
+  .hamburger{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .nav-container{
+    .div{
+      .ul{
+        .li{
+          margin: 0 10px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 750px) {
+  .nav-container{
+    div{
+
+    }
+    ul{
+      display: none;
+    }
+    .hamburger{
+      // background: url('../../assets/svg/iconfinder_menu-alt_134216.svg')
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      float: right;
+    }
+    .active-mobile-menu{
+      height: 100vh;
+      width: 100%;
+      display: block;
+      // background: rgba(0,0,0,0.2);
+      li{
+        display: block;
+        width: 100%;
+        // background: rgba(0,0,0,0.2)
+      }
+    }
+  }
+}

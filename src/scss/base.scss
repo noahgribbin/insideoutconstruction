@@ -1,0 +1,45 @@
+.container{
+  padding-top: 80px;
+}
+
+@import './reset.scss';
+@import './vars.scss';
+
+// containers
+@import './containers/home.scss';
+@import './containers/nav.scss';
+@import './containers/about.scss';
+@import './containers/services.scss';
+@import './containers/testimonial.scss';
+@import './containers/email.scss';
+@import './containers/footer.scss';
+
+@import './components/about.scss';
+@import './components/contact.scss';
+@import './components/service.scss';
+@import './components/testimonial.scss';
+
+
+body{
+  font-family: $test-font;
+  // font-family: Roboto;
+}
+
+button{
+  background: $red;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  transition: 475ms;
+  box-sizing: border-box;
+}
+button:hover{
+  box-sizing: border-box;
+  background: white;
+  color: $red;
+  border: 1px solid $red; 
+}
+.clear{
+  clear: both;
+}

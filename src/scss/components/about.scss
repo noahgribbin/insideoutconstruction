@@ -1,0 +1,44 @@
+.about-component{
+  width: 60%;
+  height: 100%;
+  display: inline-block;
+  float: left;
+  position: relative;
+  padding-top: 50px;
+  div{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    // padding-top: 1em;
+    box-sizing: border-box;
+    h3{
+      font-size: 150%;
+      margin-bottom: 20px;
+      line-height: 30px;
+    }
+    span{
+      color: $red;
+    }
+    p{
+      line-height: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .about-component{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-top: 0; 
+    float: none;
+    overflow: hidden;
+    div{
+      width: 100%;
+      padding: 50px 25px;
+      position: unset;
+      left: 0;
+      transform: translate(0,0) 
+    }
+  }
+}

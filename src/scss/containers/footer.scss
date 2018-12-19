@@ -1,0 +1,25 @@
+.footer-container{
+  width: 100%;
+  height: 200px;
+  background: $dark-grey;
+  color: white;
+  position: relative;
+
+  div{
+    text-align: center;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    h3{
+      margin-bottom: 20px;
+    }
+    h4{
+      color: lighten($dark-grey, 20%);
+      margin-bottom:3px;
+      font-size: 85%;
+    }
+  }
+  
+}
