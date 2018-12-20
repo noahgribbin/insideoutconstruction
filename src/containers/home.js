@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../assets/logo.jpg'
 
 class Home extends React.Component {
   constructor(props){
@@ -36,13 +37,14 @@ class Home extends React.Component {
         <main>
           <div>
             <h1>INSIDE OUT CONSTRUCTION</h1>
-            <ul>
-              <li className={`${this.state.activeLi === 1 ? 'active': null}`} onClick={() => this.onClick('inside')}>Inside</li>
-              <li className={`${this.state.activeLi === 2 ? 'active' : null}`} onClick={() => this.onClick('out')}>Out</li>
+            {/* <img src={logo}></img> */}
+            {/* <ul> */}
+              {/* <li className={`${this.state.activeLi === 1 ? 'active': null}`} onClick={() => this.onClick('inside')}>Inside</li> */}
+              {/* <li className={`${this.state.activeLi === 2 ? 'active' : null}`} onClick={() => this.onClick('out')}>Out</li> */}
               {/* <li className={`${this.state.activeLi === 1 ? 'active': null}`} onClick={() => this.onClick('decking')}>Decking</li>
               <li className={`${this.state.activeLi === 2 ? 'active' : null}`} onClick={() => this.onClick('bath')}>Bath</li>
               <li className={`${this.state.activeLi === 3 ? 'active' : null}`} onClick={() => this.onClick('kitchen')}>Kitchens</li> */}
-            </ul>
+            {/* </ul> */}
             {/* <button>LEARN MORE</button> */}
           </div>
 

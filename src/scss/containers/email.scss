@@ -1,5 +1,19 @@
 .email-container{
   padding: 20px 0;
+  .button-container{
+    text-align: center;
+    button{
+      display: inline-block;
+      width: unset;
+      min-width: 140px;
+    }
+    button:first-child{
+      margin-right: 5px;
+    }
+    button:nth-child(2){
+      margin-left: 5px;
+    }
+  }
   div{
     width: 80%;
     margin: auto;

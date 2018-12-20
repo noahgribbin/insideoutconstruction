@@ -22,12 +22,21 @@ app.post('/send-email', function(req, res) {
       pass: process.env.EMAIL_PASSWORD,
     },
   }); 
-  const mailOptions = {
+  const mailOptionsQuote = {
     from: req.body.email,
     to: process.env.RECIPIENT_EMAIL,
     subject: `(WEBSITE) Quote for ${req.body.project} for ${req.body.name}`,
     text: req.body.message,
   };
+  const mailOptionsTestimonial = {
+    from: req.body.email,
+    to: process.env.RECIPIENT_EMAIL,
+    subject: `(WEBSITE) Testimonial from ${req.body.name}`,
+    text: req.body.message,
+  };
+  let mailOptions;
+  
+  req.body.emailType === 'quote' ? mailOptions = mailOptionsQuote : mailOptions = mailOptionsTestimonial;
 
   transporter.sendMail(mailOptions, (err, data) => {
     if(err) {

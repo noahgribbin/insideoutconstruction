@@ -2,7 +2,7 @@ import React from 'react';
 // import Hamburger from '../assets/svg/hamburger.svg'
 // import hamburgerUrl from '../assets/svg/hamburger.svg'
 import menu from '../assets/temp/menu.png'
-import logo from '../assets/logo.jpg'
+import logo from '../assets/logo.png'
 
 
 class Nav extends React.Component{
@@ -38,8 +38,8 @@ class Nav extends React.Component{
   render(){
     return(
       <section className="nav-container">
-        {/* <div><img src={logo}></img></div> */}
-        <div><h3>Inside Out</h3></div>
+        <div><img src={logo}></img></div>
+        {/* <div><h3>Inside Out</h3></div> */}
         {/* <Hamburger /> */}
         <img className="hamburger" src={menu} onClick={this.toggleMobileMenu}></img>
         <ul className={this.state.mobileMenuActive ? 'active-mobile-menu' : null}>
