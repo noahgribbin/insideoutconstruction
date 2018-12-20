@@ -63,8 +63,7 @@ input:-webkit-autofill:active {
       left: 50%;
       transform: translate(-50%, -50%); }
       .home-container main div h1 {
-        font-size: 250%;
-        margin-bottom: 1em; }
+        font-size: 250%; }
       .home-container main div ul li {
         display: inline-block;
         font-size: 150%;
@@ -95,10 +94,10 @@ input:-webkit-autofill:active {
   color: #333333; }
   .nav-container div {
     font-size: 125%;
-    padding: 20px 40px;
+    padding: 0px 40px;
     display: inline-block;
     color: #ee534e; }
-  .nav-container div img {
+  .nav-container img {
     height: 60px; }
   .nav-container ul {
     display: inline-block;
@@ -171,6 +170,16 @@ input:-webkit-autofill:active {
 
 .email-container {
   padding: 20px 0; }
+  .email-container .button-container {
+    text-align: center; }
+    .email-container .button-container button {
+      display: inline-block;
+      width: unset;
+      min-width: 140px; }
+    .email-container .button-container button:first-child {
+      margin-right: 5px; }
+    .email-container .button-container button:nth-child(2) {
+      margin-left: 5px; }
   .email-container div {
     width: 80%;
     margin: auto; }
