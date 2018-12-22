@@ -228,6 +228,18 @@ input:-webkit-autofill:active {
     width: 100%;
     max-width: 100%; } }
 
+.gallery-container {
+  padding: 20px 0;
+  width: 90%;
+  margin: auto; }
+  .gallery-container ul {
+    display: none !important; }
+  .gallery-container .slick-list {
+    width: 750px;
+    margin: auto; }
+    .gallery-container .slick-list img {
+      width: 100%; }
+
 .footer-container {
   width: 100%;
   height: 200px;
