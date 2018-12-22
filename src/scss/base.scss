@@ -12,12 +12,16 @@
 @import './containers/services.scss';
 @import './containers/testimonial.scss';
 @import './containers/email.scss';
+@import './containers/gallery.scss';
 @import './containers/footer.scss';
 
 @import './components/about.scss';
 @import './components/contact.scss';
 @import './components/service.scss';
 @import './components/testimonial.scss';
+
+@import "~slick-carousel/slick/slick.css"; 
+// @import "~slick-carousel/slick/slick-theme.css";
 
 
 body{

@@ -6,6 +6,7 @@ import Service from './services'
 import Email from './email'
 import Footer from './footer'
 import Testimonail from './testimonials';
+import Gallery from './gallery';
 
 class App extends React.Component {
   
@@ -16,6 +17,7 @@ class App extends React.Component {
         <Home />
         <About />
         <Service />
+        <Gallery />
         <Testimonail />
         <Email />
         <Footer />

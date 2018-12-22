@@ -1,0 +1,23 @@
+.gallery-container{
+    padding: 20px 0;
+    width: 90%;
+    margin: auto;
+  ul{
+    display: none!important;  
+  }
+  .slick-list{
+    width: 750px;
+    margin: auto;
+    img{
+
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .gallery-container{
+    // padding: 0;
+    // width: 100%;
+  }
+}

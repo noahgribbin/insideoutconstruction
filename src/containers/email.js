@@ -50,7 +50,7 @@ class Email extends React.Component {
         </div>
         { this.state.activeForm === 'quote' ?
         <div>
-          <h3>GET a Free Quote</h3>
+          <h3>Get a Free Quote</h3>
           <form onSubmit={(e) => this.sendEmail(e, 'quote')} id="email-form">
             <input placeholder="Name" data="name" onChange={(e) => this.onChange(e)}></input>
             <input placeholder="Email" data="email" onChange={(e) => this.onChange(e)}></input>

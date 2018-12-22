@@ -44,6 +44,7 @@
     "path": "^0.12.7",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
+    "react-photo-gallery": "^6.2.2",
     "sass-loader": "^7.1.0",
     "scss-loader": "0.0.1",
     "style-loader": "^0.23.1",
