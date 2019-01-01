@@ -21,11 +21,17 @@
       padding: 10px 0;
       color: lighten($color: #000000, $amount: 35%)
     }
+    button{
+      display: block;
+      margin: 0 auto;
+      margin-top: 20px;
+    }
   }
   img{
         max-width: 50%;
         max-height: 50%;
-        padding: 0 10px;
+        // padding: 0 10px;
+        padding: 40px 20px;
         box-sizing: border-box;
       }
 }
@@ -47,6 +53,14 @@
   }
 }
 
+.rotate{
+  transform: rotate(90deg);
+}
+.service-modal{
+  height: 100%;
+  width: 100%;
+}
+
 @media screen and (max-width: 750px){
   .service-component{
     padding-top: 0;
@@ -54,6 +68,7 @@
       display: block;
       float: none;
       width: 100%;
+      padding-bottom: 0;
     }
     div:first-child{
       padding-top: 0;
@@ -69,6 +84,22 @@
       float: none;
       width: 100%;
       max-width: 100%;
+      padding-right: 0;
+      padding-left: 0;
+    }
+    img:first-child{
+    }
+    img:nth-child(2){
+      display: block;
+      float: none;
+      width: 70%;
+      max-width: 70%;
+      margin: auto;
+    }
+    button{
+      display: block;
+      margin: 0 auto;
+      // margin-top: 20px;
     }
   }
 }

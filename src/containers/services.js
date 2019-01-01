@@ -9,7 +9,7 @@ class ServiceContainer extends React.Component {
     // })
     return (
       <section className="service-container container clear" id="services">
-        <h3>Services</h3>
+        <h3 className="service-title">Services</h3>
         <Service />
       </section>
     )

@@ -37,9 +37,9 @@ class Nav extends React.Component{
 
   render(){
     return(
-      <section className="nav-container">
-        <div><img src={logo}></img></div>
-        {/* <div><h3>Inside Out</h3></div> */}
+      <section className="nav-container container">
+        {/* <div><img src={logo}></img></div> */}
+        <div><h3>Inside Out</h3></div>
         {/* <Hamburger /> */}
         <img className="hamburger" src={menu} onClick={this.toggleMobileMenu}></img>
         <ul className={this.state.mobileMenuActive ? 'active-mobile-menu' : null}>

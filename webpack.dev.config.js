@@ -34,6 +34,16 @@ module.exports = {
         },
       },
       {
+        test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
+        use: [{
+          loader: 'file-loader',
+          options: {
+            name: '[name].[ext]',
+            outputPath: 'fonts/',
+          },
+        }],
+      },
+      {
         test: /\.(png|jpg|otf)$/,
         use: {
           loader: 'url-loader',
@@ -52,6 +62,7 @@ module.exports = {
           fallback: 'style-loader',
           use: [
             'css-loader?sourceMap?url=false',
+            'resolve-url-loader',
             'sass-loader',
           ],
         }),

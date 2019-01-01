@@ -24,7 +24,7 @@ class Contact extends React.Component {
       <section className="contact-component">
         <div>
           <h4>Contact</h4>
-          <h3>(206) - 555 - 5555</h3>
+          <h3>(206) - 353 - 4937</h3>
           <h3>insideoutconstruction@outlook.com</h3>
           <p>Lets get started! Contact us for a free estimate on your next home improvment project.</p>
           <button onClick={(e) => this.onClick(e, 'email')}>Contact Us</button>

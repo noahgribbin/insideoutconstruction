@@ -21,6 +21,10 @@
     }
   }
 }
+
+.no-bottom-padding{
+  padding-bottom: 0 !important;
+}
 @media screen and (max-width: 750px){
   .testimonial-component{
     div{

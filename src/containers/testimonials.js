@@ -9,7 +9,7 @@ class TestimonialsContainer extends React.Component {
     // })
     return (
       <section className="testimonial-container container clear" id="testimonials">
-        <h3>Customer Testimonails</h3>
+        <h3>Customer Testimonials</h3>
         <Testimonials />
       </section>
     )

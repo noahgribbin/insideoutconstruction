@@ -1,5 +1,7 @@
 .about-container{
-  height: 100vh;
+  // height: 100vh;
+  padding-top: 0;
+  background: $med-grey;
 }
 
 @media screen and (max-width: 750px) {

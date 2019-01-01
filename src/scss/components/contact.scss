@@ -9,16 +9,13 @@
   padding-top: 50px;
 
   div{
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0%);
-    // margin-top: 1em;
-    box-sizing: border-box;
+    width: 70%;
+    margin: auto;
     h3{
       font-size: 90%;
       margin-bottom: 5px;
       line-height: 20px;
-      color: lighten($dark-grey, 30%)
+      color: lighten($dark-grey, 40%)
     }
     h4{
       font-size: 150%;
@@ -34,9 +31,9 @@
       padding: 10px;
     }
     button:hover{
-      background: white;
-      color: $red;
-      cursor: pointer;
+      // background: white;
+      // color: $red;
+      // cursor: pointer;
     }
     button:focus{
       outline: none;
@@ -53,7 +50,7 @@
     overflow: hidden;
     padding-top: 0;
     div{
-      width: 100%;
+      width: 70%;
       padding: 50px 25px;
       position: unset;
       left: 0;

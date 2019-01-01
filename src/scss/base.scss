@@ -19,6 +19,8 @@
 @import './components/contact.scss';
 @import './components/service.scss';
 @import './components/testimonial.scss';
+@import '../vendor/slick/slick.scss';
+@import '../vendor/slick/slick-theme.scss';
 
 
 body{
@@ -36,11 +38,16 @@ button{
   box-sizing: border-box;
 }
 button:hover{
-  box-sizing: border-box;
-  background: white;
-  color: $red;
-  border: 1px solid $red; 
+  cursor: pointer;
+  // box-sizing: border-box;
+  // background: white;
+  // color: $red;
+  // border: 1px solid $red; 
 }
 .clear{
   clear: both;
+}
+
+.fullscreen{
+  height: 100vh;
 }

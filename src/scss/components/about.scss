@@ -5,12 +5,10 @@
   float: left;
   position: relative;
   padding-top: 50px;
+  background: white;
   div{
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0%);
-    // padding-top: 1em;
-    box-sizing: border-box;
+    width: 70%;
+    margin: auto;
     h3{
       font-size: 150%;
       margin-bottom: 20px;
@@ -34,7 +32,7 @@
     float: none;
     overflow: hidden;
     div{
-      width: 100%;
+      width: 70%;
       padding: 50px 25px;
       position: unset;
       left: 0;
