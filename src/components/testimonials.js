@@ -32,7 +32,6 @@ class Testimonail extends React.Component {
             {/* <p>"We hired Sam years ago to take apart our deck, then build us a patio and three more deck, then he built us 4 arbors, then a closet, and he installed the tiles, floors, and molding in my new kitchen. Sam always does a thoughtful and precise job. We think he's the best, hence why we hired him again and again for different jobs and skills."</p> */}
             </ReadMoreAndLess>
           <h4>Fran F</h4>
-          <h3>Exterior Projects</h3>
         </div>
       </section>
       <section className="testimonial-component">
@@ -47,7 +46,6 @@ class Testimonail extends React.Component {
             {"Sam and Inside Out were great — we have used them for two projects and thrilled with the results of both! Sam was easy to contact, responsive to inquiries and timely. He was incredibly polite, cleaned up every day, and our two decks were both finished when he said they would be! Our deck was one of the best investments we’ve made. Sam was knowledgeable about materials, and helped us pick what turned out to be the perfect material and perfect color. We never felt that he was pushing us to use a certain material over another — it was really truly what our preference was but he was sure to educate us on the pros and cons of all choices. Everyone who comes over loves our deck! We’ve referred Sam to several of our friends as well. In addition, a year or two after the initial installation, one of the boards just needed some new screws which he did free of charge. Couldn’t recommend Sam and Inside Out enough! Our deck is our family hangout all summer, and no splinters, no cleaning, no maintenance! Thanks Sam!"}
             </ReadMoreAndLess>
             <h4>Maida C</h4>
-          <h3>Decking</h3>
         </div>
       </section>
       <section className={`testimonial-component`}>
@@ -62,7 +60,6 @@ class Testimonail extends React.Component {
             {"I first heard of Inside Out Construction through a neighbors referral. Our Home Owner Association needed to replace quite a bit of fencing. At our initial meeting Sam and I walked the proposed area. I shared thoughts and out ideas, and Sam educated e as we walked on what should be considered as we looked at options. Hour HOA felt confident in selecting Inside Out for the job. Sam was communicative and gave us realistic expectations. I cannot count the compliments I have received on the fence. It is beautiful! Our HOA has used Inside Out Construction almost exclusively since. Whether large jobs or small, Sam us extremely professional and reliable. The membership is in agreement that for smaller jobs we just call Sam, not getting multiple bids. If I need something done personally, I contact Sam. I know he will be honest and responsible, and give me clear expectations on the work, what it should be, and the timeline to complete."}
             </ReadMoreAndLess>
           <h4>Mary J</h4>
-          <h3>Fencing</h3>
         </div>
       </section>
       <section className={`testimonial-component`}>
