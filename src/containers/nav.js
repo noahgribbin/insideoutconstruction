@@ -48,7 +48,7 @@ class Nav extends React.Component{
           <li className="nav-item" onClick={() => this.onClick('services')}>Services</li>
           <li className="nav-item" onClick={() => this.onClick('testimonials')}>Testimonials</li>
           {/* <li className="nav-item" onClick={() => this.onClick('email')}>Contact</li> */}
-          <li className="nav-item highlight" onClick={() => this.onClick('email')}>Free Quote</li>
+          <li className="nav-item highlight" onClick={() => this.onClick('email')}>Contact Us</li>
         </ul>
       </section>
     )

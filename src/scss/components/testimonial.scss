@@ -1,6 +1,6 @@
 .testimonial-component{
-  div{
-    border-bottom: 1px solid lighten($dark-grey, 35%);
+  border-bottom: 1px solid lighten($dark-grey, 35%);
+  .testimonial-sub-container{
     padding: 20px 0;
     p{
       color: lighten($color: #000000, $amount: 35%);
@@ -8,6 +8,19 @@
       font-family: Roboto, sans-serif;
       font-size: 90%;
       padding: 10px 0 20px 0;
+    }
+    span{
+          color: lighten($color: #000000, $amount: 35%);
+      line-height: 25px;
+      font-family: Roboto, sans-serif;
+      font-size: 90%;
+      padding: 10px 0 20px 0;
+    }
+    .readMoreText{
+    // padding
+    display: block;
+    color: $red !important;
+    padding: 0;
     }
     h4{
       font-size: 90%;
@@ -22,6 +35,9 @@
   }
 }
 
+.show-less{
+  display: none;
+}
 .no-bottom-padding{
   padding-bottom: 0 !important;
 }

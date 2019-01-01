@@ -44,7 +44,7 @@ module.exports = {
         }],
       },
       {
-        test: /\.(png|jpg|otf)$/,
+        test: /\.(png|jpg|pdf|otf)$/,
         use: {
           loader: 'url-loader',
           options: {
