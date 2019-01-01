@@ -424,10 +424,12 @@ input:-webkit-autofill:active {
     box-sizing: border-box; }
 
 .service-left div {
-  float: left; }
+  float: left;
+  width: 60%; }
 
 .service-left img {
-  float: right; }
+  float: right;
+  width: 40%; }
 
 .service-right div {
   float: right; }
