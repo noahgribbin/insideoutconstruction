@@ -74,7 +74,20 @@ class Testimonail extends React.Component {
             {"I found Inside Out Construction and owner Sam Byrd through a referral service, and hit the jackpot. Sam first built a deck for me, start to finish helping me through the design process, picking out material, material purchases etc. From start to finish, Sam has simply the BEST communication I've ever know from a contractor, and communicated via any means we needed to, whether text, email, or phone, making it completely simple and easy for me to know what was going on. He let me know about thinks proactively ahead of time, was prompt and tidy, and most of all, his finished product was impeccable. Later, Sam remodeled a full bathroom for me on an extremely tight timeline, among myriad other jobs. More than his incredible reputation as a contractor and artist, Sam is simply one of the best men I know, and a complete pleasure to work with! I'd never use anyone else if I had a choice."}
             </ReadMoreAndLess>
           <h4>Robin R</h4>
-          <h3>Bathroom Tiling</h3>
+        </div>
+      </section>
+      <section className={`testimonial-component`}>
+        <div className="testimonial-sub-container">
+              <ReadMoreAndLess
+                ref={this.ReadMore}
+                className="read-more-content"
+                charLimit={350}
+                readMoreText="Read more"
+                readLessText="Read less"
+              >
+              {"We are fortunate that Dunn Lumber put us in contact with Inside Out Construction when we were seeking a contractor for several home remodel projects. It has been three years since we first met the owner of Inside Out Construction, Sam Byrd, and we have never had to look back! Sam and his team have done several large-scale projects for us.  The first project was structural work to the underside of our home that sits on a hill.  We gave Sam a 30+ page report from our Structural Engineer that Sam was then able to boil down to one page of work.  This work included reposting the entire underside of our home, in addition to the install of earthquake plates, needed tie down bolts and strapping.   Following this, we hired Inside out Construction to replace some of our Hardie plank siding, remove a failing deck, and install a larger exterior door. We then hired Inside Out Construction to replace our entire perimeter fence and build us two arbors with an original design.  And our most recent project with Inside Out Construction was the install of a cedar soffit and lighting under our composite deck.  All of which turned out beautifully. We are delighted with the terrific results from the work Inside Out Construction has performed for us.  Sam is very receptive and easy to communicate with, and asks all the right questions upfront, which makes each project we do with him a lot easier.  All our neighbors want to hire Sam and his team after they see the work he has performed for us.  We give Inside Out Construction our gold stamp of approval – they are AWESOME.  Thank you, Sam, for the quality work you have done on our home!"}
+            </ReadMoreAndLess>
+            <h4>Tessa & Donovan</h4>
         </div>
       </section>
       {/* <button onClick={this.toggleMoreLess}>
