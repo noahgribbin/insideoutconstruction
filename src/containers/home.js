@@ -32,14 +32,6 @@ class Home extends React.Component {
             {/* <h1>INSIDE OUT CONSTRUCTION</h1> */}
             <img src={logo}></img>
           </div>
-          <section className="sale-container">
-          <FontAwesomeIcon className="arrow-icon" icon="arrow-right" />
-            <div className="sale-text-container">
-              <h3>Winter Rebate:  10% Discount on Deck Jobs Contracted in January</h3>
-             <h3 className="red">Call Now</h3>
-            </div>
-          <FontAwesomeIcon className="arrow-icon" icon="arrow-left" />
-          </section>
           </div>
         </main>
       </section>
