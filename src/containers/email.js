@@ -13,7 +13,7 @@ class Email extends React.Component {
   }
   sendEmail(e, type){
     e.preventDefault()    
-    request.post('http://localhost:3000/send-email')
+    request.post('https://insideoutconstruction.herokuapp.com/send-email')
       .type('form')
       .send({'name' : this.state.name})
       .send({'email' : this.state.email})
