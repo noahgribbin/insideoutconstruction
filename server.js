@@ -40,6 +40,8 @@ app.post('/send-email', function(req, res) {
 
   transporter.sendMail(mailOptions, (err, data) => {
     if(err) {
+      console.log('USERNAME', process.env.EMAIL_USERNAME)
+      console.log('PASSWORD', process.env.EMAIL_PASSWORD)
       return console.log('send mail error', err);
     }
     console.log('Message Sent: %s', data.messageId);
